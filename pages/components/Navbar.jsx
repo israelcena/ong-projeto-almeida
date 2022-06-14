@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Navbar() {
 	return (
-		<div className="container-xl">
-			<nav
-				className="navbar navbar-expand-lg navbar-light bg-light sticky-top"
-				aria-label="navbar"
-			>
+		<nav
+			className="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+			aria-label="navbar"
+		>
+			<div className="container-xl">
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -59,7 +59,7 @@ export default function Navbar() {
 						</div>
 					</ul>
 				</div>
-			</nav>
-		</div>
+			</div>
+		</nav>
 	);
 }
