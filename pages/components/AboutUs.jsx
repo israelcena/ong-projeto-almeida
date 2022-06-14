@@ -1,15 +1,22 @@
+import { BsArrowRight } from "react-icons/bs";
+BsArrowRight;
 export default function AboutUs() {
 	return (
 		<section className="container my-5 d-flex justify-content-center align-items-center gap-2 px-5">
 			<div
 				className="rounded-circle shadow bg-primary p-5 m-5"
 				style={{
-					height: "250px",
-					width: "250px",
+					height: "200px",
+					width: "200px",
 				}}
 			></div>
 			<div className="w-50">
-				<h1>Quem Somos</h1>
+				<h1 className="text-primary">
+					Quem Somos <br />
+					<span>
+						<BsArrowRight />
+					</span>
+				</h1>
 				<p>
 					Lorem Ipsum é simplesmente uma simulação de texto da indústria
 					tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
