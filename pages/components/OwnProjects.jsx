@@ -69,7 +69,7 @@ export default function OwnProjects() {
 						<h2 className="fw-normal">Projeto</h2>
 						<p>
 							Another exciting bit of representative placeholder content. This
-							time, we've moved on to the second column.
+							time, weve moved on to the second column.
 						</p>
 						<p>
 							<Link href="#">
