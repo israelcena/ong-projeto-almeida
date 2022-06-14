@@ -9,15 +9,23 @@ export default function AboutUs() {
 					<BsArrowRight />
 				</span>
 			</h1>
-			<div className="d-flex justify-content-center aling-itens-center gap-5">
-				<div
-					className="rounded-circle shadow bg-primary"
-					style={{
-						height: "200px",
-						width: "200px",
-					}}
-				></div>
-				<div className="w-50">
+			<div className="d-lg-flex justify-content-center aling-itens-center">
+				<div className="col-lg-2">
+					<svg
+						className="bd-placeholder-img rounded-circle shadow"
+						width="140"
+						height="140"
+						xmlns="http://www.w3.org/2000/svg"
+						role="img"
+						aria-label="Placeholder: 140x140"
+						preserveAspectRatio="xMidYMid slice"
+						focusable="false"
+					>
+						<title>Placeholder</title>
+						<rect width="100%" height="100%" fill="#0d6efd"></rect>
+					</svg>
+				</div>
+				<div className="col-lg-6">
 					<p>
 						Lorem Ipsum é simplesmente uma simulação de texto da indústria
 						tipográfica e de impressos, e vem sendo utilizado desde o século
