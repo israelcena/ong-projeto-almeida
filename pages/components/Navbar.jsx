@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
 	return (
@@ -22,39 +23,45 @@ export default function Navbar() {
 					<ul className="navbar-nav mb-2 mb-lg-0">
 						<div className="d-flex">
 							<li className="nav-item">
-								<a className="nav-link active" aria-current="page" href="#">
-									Nossos Projetos
-								</a>
+								<Link href="#">
+									<a className="nav-link active" aria-current="page">
+										Nossos Projetos
+									</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#">
-									Quem Somos
-								</a>
+								<Link href="#">
+									<a className="nav-link">Quem Somos</a>
+								</Link>
 							</li>
 						</div>
 
 						<div>
 							<li>
-								<a className="navbar-brand" href="/">
-									<Image
-										src="/images/logoProjetoAlmeida.jpeg"
-										alt="Logo"
-										width={100}
-										height={100}
-									/>
-								</a>
+								<Link href="#">
+									<a className="navbar-brand">
+										<Image
+											src="/images/logoProjetoAlmeida.jpeg"
+											alt="Logo"
+											width={100}
+											height={100}
+										/>
+									</a>
+								</Link>
 							</li>
 						</div>
 						<div className="d-flex">
 							<li className="nav-item">
-								<a className="nav-link active" aria-current="page" href="#">
-									Nossos Projetos
-								</a>
+								<Link href="#">
+									<a className="nav-link active" aria-current="page">
+										Nossos Projetos
+									</a>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#">
-									Quem Somos
-								</a>
+								<Link href="#">
+									<a className="nav-link">Quem Somos</a>
+								</Link>
 							</li>
 						</div>
 					</ul>
