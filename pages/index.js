@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
+import AboutUs from './components/AboutUs'
+import OwnProjects from './components/OwnProjects'
+import GetInvolved from './components/GetInvolved'
+import Partners from './components/Partners'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
