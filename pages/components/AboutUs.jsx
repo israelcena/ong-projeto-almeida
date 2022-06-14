@@ -2,7 +2,7 @@ import { BsArrowRight } from "react-icons/bs";
 BsArrowRight;
 export default function AboutUs() {
 	return (
-		<section className="container my-5 d-flex justify-content-center align-items-center gap-2 px-5">
+		<section className="container my-5 d-lg-flex justify-content-center align-items-center gap-2 px-5 ">
 			<div
 				className="rounded-circle shadow bg-primary p-5 m-5"
 				style={{
