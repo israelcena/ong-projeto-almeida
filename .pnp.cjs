@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["bootstrap", "virtual:589b221c3c39fd9d22f0e07e3228c46f24a5571869c3f21a923b3386501878ad2299f4a8e7277d3b3061a8ccf722d38b362e2a56d25fb326b65a9a320cf98d79#npm:5.1.3"],\
             ["eslint", "npm:8.17.0"],\
             ["eslint-config-next", "virtual:589b221c3c39fd9d22f0e07e3228c46f24a5571869c3f21a923b3386501878ad2299f4a8e7277d3b3061a8ccf722d38b362e2a56d25fb326b65a9a320cf98d79#npm:12.1.6"],\
             ["next", "virtual:589b221c3c39fd9d22f0e07e3228c46f24a5571869c3f21a923b3386501878ad2299f4a8e7277d3b3061a8ccf722d38b362e2a56d25fb326b65a9a320cf98d79#npm:12.1.6"],\
@@ -532,6 +533,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/balanced-match-npm-1.0.2-a53c126459-9706c088a2.zip/node_modules/balanced-match/",\
           "packageDependencies": [\
             ["balanced-match", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["bootstrap", [\
+        ["npm:5.1.3", {\
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.1.3-691fdc19a6-301b5ed872.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "npm:5.1.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:589b221c3c39fd9d22f0e07e3228c46f24a5571869c3f21a923b3386501878ad2299f4a8e7277d3b3061a8ccf722d38b362e2a56d25fb326b65a9a320cf98d79#npm:5.1.3", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-b506e40ae6/0/cache/bootstrap-npm-5.1.3-691fdc19a6-301b5ed872.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "virtual:589b221c3c39fd9d22f0e07e3228c46f24a5571869c3f21a923b3386501878ad2299f4a8e7277d3b3061a8ccf722d38b362e2a56d25fb326b65a9a320cf98d79#npm:5.1.3"],\
+            ["@popperjs/core", null],\
+            ["@types/popperjs__core", null]\
+          ],\
+          "packagePeers": [\
+            "@popperjs/core",\
+            "@types/popperjs__core"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2115,6 +2138,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["ong-projeto-almeida", "workspace:."],\
+            ["bootstrap", "virtual:589b221c3c39fd9d22f0e07e3228c46f24a5571869c3f21a923b3386501878ad2299f4a8e7277d3b3061a8ccf722d38b362e2a56d25fb326b65a9a320cf98d79#npm:5.1.3"],\
             ["eslint", "npm:8.17.0"],\
             ["eslint-config-next", "virtual:589b221c3c39fd9d22f0e07e3228c46f24a5571869c3f21a923b3386501878ad2299f4a8e7277d3b3061a8ccf722d38b362e2a56d25fb326b65a9a320cf98d79#npm:12.1.6"],\
             ["next", "virtual:589b221c3c39fd9d22f0e07e3228c46f24a5571869c3f21a923b3386501878ad2299f4a8e7277d3b3061a8ccf722d38b362e2a56d25fb326b65a9a320cf98d79#npm:12.1.6"],\
