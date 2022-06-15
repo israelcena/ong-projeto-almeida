@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Navbar() {
 	return (
 		<nav
-			className="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+			className="navbar navbar-expand-lg navbar-light bg-light fs-4"
 			aria-label="navbar"
 		>
-			<div className="container-xl">
+			<div className="container">
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -19,51 +19,43 @@ export default function Navbar() {
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbar">
+				<div
+					className="collapse navbar-collapse justify-content-between"
+					id="navbar"
+				>
 					<ul className="navbar-nav mb-2 mb-lg-0">
-						<div className="d-flex">
-							<li className="nav-item">
-								<Link href="#">
-									<a className="nav-link active" aria-current="page">
-										Nossos Projetos
-									</a>
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link href="#">
-									<a className="nav-link">Quem Somos</a>
-								</Link>
-							</li>
-						</div>
-
-						<div>
-							<li>
-								<Link href="#">
-									<a className="navbar-brand">
-										<Image
-											src="/images/logoProjetoAlmeida.jpeg"
-											alt="Logo"
-											width={100}
-											height={100}
-										/>
-									</a>
-								</Link>
-							</li>
-						</div>
-						<div className="d-flex">
-							<li className="nav-item">
-								<Link href="#">
-									<a className="nav-link active" aria-current="page">
-										Nossos Projetos
-									</a>
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link href="#">
-									<a className="nav-link">Quem Somos</a>
-								</Link>
-							</li>
-						</div>
+						<li className="nav-item">
+							<Link href="#ownprojects">
+								<a className="nav-link">Nossos Projetos</a>
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link href="#aboutus">
+								<a className="nav-link">Quem Somos</a>
+							</Link>
+						</li>
+					</ul>
+					<Link href="/">
+						<a className="navbar-brand">
+							<Image
+								src="/images/logoProjetoAlmeida.jpeg"
+								alt="Logo"
+								width={100}
+								height={100}
+							/>
+						</a>
+					</Link>
+					<ul className="navbar-nav mb-2 mb-lg-0 mr-auto">
+						<li className="nav-item">
+							<Link href="#getinvolved">
+								<a className="nav-link">Envolva-se</a>
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link href="#partners">
+								<a className="nav-link">Parceiros</a>
+							</Link>
+						</li>
 					</ul>
 				</div>
 			</div>
