@@ -1,7 +1,11 @@
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar(props) {
+	const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+	const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 	return (
 		<nav
 			className="navbar navbar-expand-lg navbar-light bg-light fs-4"
@@ -14,13 +18,16 @@ export default function Navbar() {
 					data-bs-toggle="collapse"
 					data-bs-target="#navbar"
 					aria-controls="navbar"
-					aria-expanded="false"
+					aria-expanded={!isNavCollapsed ? true : false}
 					aria-label="Toggle navigation"
+					onClick={handleNavCollapse}
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div
-					className="collapse navbar-collapse justify-content-between"
+					className={`${
+						isNavCollapsed ? "collapse" : ""
+					} navbar-collapse justify-content-between`}
 					id="navbar"
 				>
 					<ul className="navbar-nav mb-2 mb-lg-0">
