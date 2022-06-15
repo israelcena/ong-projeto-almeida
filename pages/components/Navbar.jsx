@@ -40,8 +40,8 @@ export default function Navbar() {
 							<Image
 								src="/images/logoProjetoAlmeida.jpeg"
 								alt="Logo"
-								width={100}
-								height={100}
+								width={125}
+								height={125}
 							/>
 						</a>
 					</Link>
