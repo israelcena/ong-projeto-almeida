@@ -2,7 +2,7 @@ import { BsArrowRight } from "react-icons/bs";
 BsArrowRight;
 export default function AboutUs() {
 	return (
-		<section className="container my-5 px-5 text-center">
+		<section className="container my-5 px-5 text-center" id="aboutus">
 			<h1 className="text-primary mb-3">
 				Quem Somos <br />
 				<span>

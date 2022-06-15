@@ -4,6 +4,7 @@ export default function Partners() {
 	return (
 		<section
 			className="my-5 py-5 text-center"
+			id="partners"
 			style={{
 				backgroundColor: "#74b9ff",
 			}}

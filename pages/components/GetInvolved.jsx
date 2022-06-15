@@ -1,7 +1,7 @@
 import { BsArrowRight } from "react-icons/bs";
 export default function GetInvolved() {
 	return (
-		<section className="container my-5 px-5 text-center">
+		<section className="container my-5 px-5 text-center" id="getinvolved">
 			<h1 className="text-primary mb-3">
 				Envolva-se
 				<br />

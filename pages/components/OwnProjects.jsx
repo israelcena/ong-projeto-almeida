@@ -5,6 +5,7 @@ export default function OwnProjects() {
 	return (
 		<section
 			className=" text-center my-5 py-5"
+			id="ownprojects"
 			style={{
 				backgroundColor: "#74b9ff",
 			}}
