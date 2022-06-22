@@ -9,7 +9,7 @@ import { BsLinkedin } from "react-icons/bs";
 export default function Footer() {
 	return (
 		<footer className="pb-3 mb-4 border-top">
-			<div className="container d-flex flex-wrap justify-content-between align-items-center">
+			<div className="container d-flex flex-wrap justify-content-between align-items-center pt-3">
 				<div className="col-md-4 d-flex align-items-center">
 					<span className="mb-3 mb-md-0 text-muted">
 						© 2022 Projeto Almeida, Organização sem fins lucrativos
