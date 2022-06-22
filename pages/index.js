@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs'
 import OwnProjects from './components/OwnProjects'
 import GetInvolved from './components/GetInvolved'
 import Partners from './components/Partners'
+import GoToTopBtn from './components/GoToTopBtn'
 import Footer from './components/Footer'
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <OwnProjects />
       <GetInvolved />
       <Partners />
+      <GoToTopBtn />
       <Footer />
     </>
   )
