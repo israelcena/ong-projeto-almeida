@@ -22,7 +22,7 @@ export default function OwnProjects() {
 				<div className="row">
 					<div className="col-lg-4">
 						<svg
-							className="bd-placeholder-img rounded-circle"
+							className="bd-placeholder-img rounded-circle mb-2"
 							width="140"
 							height="140"
 							xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export default function OwnProjects() {
 					</div>
 					<div className="col-lg-4">
 						<svg
-							className="bd-placeholder-img rounded-circle"
+							className="bd-placeholder-img rounded-circle mb-2"
 							width="140"
 							height="140"
 							xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export default function OwnProjects() {
 					</div>
 					<div className="col-lg-4">
 						<svg
-							className="bd-placeholder-img rounded-circle"
+							className="bd-placeholder-img rounded-circle mb-2"
 							width="140"
 							height="140"
 							xmlns="http://www.w3.org/2000/svg"
